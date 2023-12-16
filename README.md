@@ -1,22 +1,25 @@
 # ac_tools_cmd
 
-This package includes 4 commandline programs for use in batch files, and some batchfiles for an easy start.
+This package includes 4 commandline programs for use in batch files, and some batchfiles for an easy start. All programs make backups for existing files or make a new directory.
  - dl here: https://github.com/leBluem/ac_tools_cmd/releases/tag/0.1
 
 The included programs are:
 
 ### acd_file
  - unpack or pack 'data.acd' or 'data' folders
+ - makes backup of existing files if needed
 
 ### kn52fbx
  - based on CM code
  - excepts single '.kn5' files or and folders
+ - unpacks into new folder
  - includes some fixes for
  -- texture-filenames with spaces
  -- Transparent/AlphaBlend/AlphaTest flags
 
 ### kn5FIX_by_INI
  - excepts single '.kn5' files or and folders
+ - overwrites original, NO (!) backup is made
  - from nearby persistence file '.fbx.ini'
  - fixes only bytes:
  -- for mat-alphablend/alphatest

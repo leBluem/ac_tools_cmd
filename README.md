@@ -6,7 +6,7 @@ This package includes 4 commandline programs for use in batch files, and some ba
 The included programs are:
 
 ### acd_file
- - unpack 'data.acd' file -or- pack 'data' folders
+ - unpack 'data.acd' file -or- pack 'data' folder
  - makes backup of existing files if needed
 
 ### kn52fbx

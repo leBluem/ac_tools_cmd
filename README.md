@@ -11,14 +11,14 @@ The included programs are:
 
 ### kn52fbx
  - based on CM code
- - excepts single '.kn5' files or and folders
+ - excepts single '.kn5' files or folders
  - unpacks into new folder
  - includes some fixes for
  -- texture-filenames with spaces
  -- Transparent/AlphaBlend/AlphaTest flags
 
 ### kn5FIX_by_INI
- - excepts single '.kn5' files or and folders
+ - excepts single '.kn5' files or folders
  - overwrites original, NO (!) backup is made
  - from nearby persistence file '.fbx.ini'
  - fixes only bytes:

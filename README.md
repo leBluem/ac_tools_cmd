@@ -10,6 +10,7 @@ The included programs are:
 
 ### kn52fbx
  - based on CM code
+ - excepts single '.kn5' files or and folders
  - includes some fixes for
  -- texture-filenames with spaces
  -- Transparent/AlphaBlend/AlphaTest flags

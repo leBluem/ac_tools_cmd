@@ -1,6 +1,7 @@
 # ac_tools_cmd
 
 This package includes 4 commandline programs for use in batch files, and some batchfiles for an easy start.
+ - dl here: https://github.com/leBluem/ac_tools_cmd/releases/tag/0.1
 
 The included programs are:
 

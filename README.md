@@ -12,6 +12,7 @@ The included programs are:
 ### kn52fbx
  - based on CM code
  - excepts single '.kn5' files or folders
+ - uses fbxConverter.exe (also included)
  - unpacks into new folder
  - includes some fixes for
  -- texture-filenames with spaces

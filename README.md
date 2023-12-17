@@ -7,6 +7,8 @@ The included programs are:
 
 ### acd_file
  - unpack 'data.acd' file -or- pack 'data' folder
+ - needs either path to a 'data.acd' file
+   or a car-folder (!not 'data' folder)
  - makes backup of existing files if needed
 
 ### kn52fbx

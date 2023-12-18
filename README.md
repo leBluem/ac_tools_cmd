@@ -17,11 +17,11 @@ The included programs are:
  - makes backup of existing files if needed
 
 ### kn52fbx
- - based on CM code
+ - based on CM code, unpacks car- and track-kn5's
  - excepts single '.kn5' files or folders
  - uses fbxConverter.exe (also included)
  - unpacks into new folder
- - includes some fixes for
+ - includes some fixes for generating the persistence file (...fbx.ini)
  -- texture-filenames with spaces
  -- Transparent/AlphaBlend/AlphaTest flags
 

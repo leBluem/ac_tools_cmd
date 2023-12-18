@@ -26,12 +26,12 @@ The included programs are:
  -- Transparent/AlphaBlend/AlphaTest flags
 
 ### kn5FIX_by_INI
- - excepts single '.kn5' files or folders
+ - excepts single '.kn5' files or folders (all kn5 in this folder will be checked (no sub folders)
  - overwrites original, NO (!) backup is made
- - from nearby persistence file '.fbx.ini'
+ - from nearby persistence file '...fbx.ini', if not found it does nothing
  - fixes only bytes:
  -- for mat-alphablend/alphatest
- -- obj-transparency
+ -- for obj-transparency
 
 ### ksEditorAT
  - included for convinience, original from https://ascobash.wordpress.com/2015/07/22/kseditor/

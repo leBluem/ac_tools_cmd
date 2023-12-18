@@ -5,19 +5,19 @@ use at your own risk
 - dl here: https://github.com/leBluem/ac_tools_cmd/releases/tag/0.1
 
 This package includes 4 commandline programs for use in batch files, and some batchfiles for an easy start. 
-All programs make backups for existing files or make a new directory.
 Hold "Shift" until programs quit, it will pause and ask for a key.
 
 The included programs are:
 
 ### acd_file
  - unpack 'data.acd' file -or- pack 'data' folder
+ - makes backup of existing files if needed
  - needs either path to a 'data.acd' file
    or a car-folder or car 'data' folder
- - makes backup of existing files if needed
 
 ### kn52fbx
  - based on CM code, unpacks car- and track-kn5's
+ - creates new folder
  - excepts single '.kn5' files or folders
  - uses fbxConverter.exe (also included)
  - unpacks into new folder
@@ -36,7 +36,7 @@ The included programs are:
 ### ksEditorAT
  - included for convinience, original from https://ascobash.wordpress.com/2015/07/22/kseditor/
  - builds both car+track kn5's via commandline from '.fbx' and '.fbx.ini' files
-
+ - overwrites existing kn5
 
 some of the included example batch files:
 

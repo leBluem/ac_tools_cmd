@@ -2,15 +2,18 @@ use at your own risk
 
 # ac_tools_cmd
 
-This package includes 4 commandline programs for use in batch files, and some batchfiles for an easy start. All programs make backups for existing files or make a new directory.
- - dl here: https://github.com/leBluem/ac_tools_cmd/releases/tag/0.1
+- dl here: https://github.com/leBluem/ac_tools_cmd/releases/tag/0.1
+
+This package includes 4 commandline programs for use in batch files, and some batchfiles for an easy start. 
+All programs make backups for existing files or make a new directory.
+Hold "Shift" until programs quit, it will pause and ask for a key.
 
 The included programs are:
 
 ### acd_file
  - unpack 'data.acd' file -or- pack 'data' folder
  - needs either path to a 'data.acd' file
-   or a car-folder (!not 'data' folder)
+   or a car-folder or car 'data' folder
  - makes backup of existing files if needed
 
 ### kn52fbx

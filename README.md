@@ -5,7 +5,7 @@ use at your own risk
 - dl here: https://github.com/leBluem/ac_tools_cmd/releases/tag/0.3
 
 This package includes 4 commandline programs for use in batch files, and some batchfiles for an easy start. 
-Hold "Shift" until programs quit, it will pause after exit (not ksEditorAT). Source source in 'src' folder (not ksEditorAT).
+Hold "Shift" until programs quit, it will pause after exit (not ksEditorAT). Source code included, see 'src' folder (not ksEditorAT).
 
 The included programs are:
 

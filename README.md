@@ -2,7 +2,7 @@ use at your own risk
 
 # ac_tools_cmd
 
-- dl here: https://github.com/leBluem/ac_tools_cmd/releases/tag/0.3
+- dl here: https://github.com/leBluem/ac_tools_cmd/releases/tag/0.4
 (Source code available there too)
 
 This package includes 4 commandline programs for use in batch files, and some batchfiles for an easy start. 

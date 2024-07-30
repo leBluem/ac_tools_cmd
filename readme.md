@@ -46,5 +46,12 @@ v0.4 changelog
 -fixed kn52fbx.exe exporting to "....kn5.kn5" folder
 
 v0.5 changelog
+added "fbx2kn5_lod.cmd" for drag'n'drop to create car LOD files
+updated again 20minutes later :(
+changed all cmd files to work in a folder with spaces, sorry
+
+v0.6 changelog
 -fixed kn52fbx.exe failing on KN5's without materials
 
+v0.7 changelog
+-fixed kn52fbx.exe on huge KN5's, timeout was set to 2 minutes only

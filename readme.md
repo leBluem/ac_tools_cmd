@@ -29,7 +29,7 @@ some of the included example batch files:
 
 ```
 acd_or_data.cmd
-fbx2kn5_car.cmd
+fbx2kn5_car.cmd   (also runs kn5FIX_by_INI.cmd)
 fbx2kn5_track.cmd
 kn52fbx.cmd
 kn5FIX_by_INI.cmd

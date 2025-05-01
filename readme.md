@@ -24,16 +24,21 @@ The included programs are:
  - included for convinience, original from https://ascobash.wordpress.com/2015/07/22/kseditor/
  - builds both car+track kn5's via commandline from '.fbx' and '.fbx.ini' files
 
+### KN5Join
+ - wants an "ini" as input, format like "models.ini"
+ - sections can start at any value ([MODEL_66]...)
+ - joins KN5's respecting "POSITION" and "ROTATION" params
+ - made specifically for "TrackDecoration" app https://www.overtake.gg/downloads/trackdecoration.76979/
 
-some of the included example batch files:
 
+### Batch files
+ - some of the included example batch files:
 ```
 acd_or_data.cmd
 fbx2kn5_car.cmd
 fbx2kn5_track.cmd
 kn52fbx.cmd
 kn5FIX_by_INI.cmd
-...
 ```
 
 v0.3 changelog

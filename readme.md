@@ -1,7 +1,6 @@
-## ac_tools_cmd
-
-Download on the right under "Releases" 
-This package includes 5 commandline programs for use in batch files, and some batchfiles for an easy start.
+## Assetto Corsa 'ac_tools_cmd'
+ - This package includes 5 commandline programs for use in batch files, and some batchfiles for an easy start.
+ - Download on the right under "Releases"
 
 The included programs are:
 

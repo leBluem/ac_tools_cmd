@@ -1,5 +1,6 @@
 ## ac_tools_cmd
 
+Download on the right under "Releases" 
 This package includes 5 commandline programs for use in batch files, and some batchfiles for an easy start.
 
 The included programs are:

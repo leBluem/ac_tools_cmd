@@ -16,7 +16,7 @@ The included programs are:
 ### kn5FIX_by_INI
  - excepts single '.kn5' files or and folders
  - from nearby persistence file '.fbx.ini'
- - everything different to that, also textures if newer than kn5
+ - changes everything different to that ^ , also textures if newer than KN5
  - param -export (or -e), it will export .fbx.ini from a KN5
  - batch file for that: "kn52_fbxini_only.cmd"
 

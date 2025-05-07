@@ -16,9 +16,9 @@ The included programs are:
 ### kn5FIX_by_INI
  - excepts single '.kn5' files or and folders
  - from nearby persistence file '.fbx.ini'
- - fixes only bytes:
- -- for mat-alphablend/alphatest
- -- obj-transparency
+ - everything different to that, also textures if newer than kn5
+ - param -export (or -e), it will export .fbx.ini from a KN5
+ - batch file for that: "kn52_fbxini_only.cmd"
 
 ### ksEditorAT
  - included for convinience, original from https://ascobash.wordpress.com/2015/07/22/kseditor/

@@ -75,3 +75,14 @@ v0.8 changelog
 --made specifically for "TrackDecoration" app https://www.overtake.gg/downloads/trackdecoration.76979/
 
 -removed all shift-key stuff, now there is always a "press any key" pause after programs ran
+
+v0.9 changelog
+--"kn52fbx":
+--small fixes for handling multiple files
+
+-"kn5fix":
+--added param -export (or -e), it will export .fbx.ini from a KN5
+--added new batch file for that "kn52_fbxini_only.cmd"
+
+-all programs:
+--small fixes output and waiting after operations

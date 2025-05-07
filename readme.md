@@ -77,7 +77,7 @@ v0.8 changelog
 -removed all shift-key stuff, now there is always a "press any key" pause after programs ran
 
 v0.9 changelog
---"kn52fbx":
+--"kn52fbx" and "kn5fix" :
 --small fixes for handling multiple files
 
 -"kn5fix":

@@ -86,3 +86,8 @@ v0.9 changelog
 
 -all programs:
 --small fixes output and waiting after operations
+
+v0.9.1 changelog
+"kn5Join":
+--joined objects will be renamed continuously
+--handy for doing AC_PIT/AC_START/AC_TIME.. objects with "TrackDecoration" app https://www.overtake.gg/downloads/trackdecoration.76979/

@@ -25,6 +25,7 @@ The included programs are:
  - builds both car+track kn5's via commandline from '.fbx' and '.fbx.ini' files
 
 ### KN5Join
+ - can have "-x" paramter to exit after operation
  - wants an "ini" as input, format like "models.ini"
  - sections can start at any value ([MODEL_66]...)
  - joins KN5's respecting "POSITION" and "ROTATION" params
@@ -91,3 +92,7 @@ v0.9.1 changelog
 "kn5Join":
 --joined objects will be renamed continuously
 --handy for doing AC_PIT/AC_START/AC_TIME.. objects with "TrackDecoration" app https://www.overtake.gg/downloads/trackdecoration.76979/
+
+v0.9.2 changelog
+"kn5Join":
+--added -x paramter to close after operation, used in TD

@@ -96,3 +96,9 @@ v0.9.1 changelog
 v0.9.2 changelog
 "kn5Join":
 --added -x paramter to close after operation, used in TD
+
+v0.9.3 changelog
+"kn5Join":
+--fixed not finding objects directory
+--added logfile next to binary "kn5join_log.txt"
+

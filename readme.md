@@ -102,3 +102,28 @@ v0.9.3 changelog
 --fixed not finding objects directory
 --added logfile next to binary "kn5join_log.txt"
 
+v0.9.5 changelog
+"kn5Join":
+--fixed renaming objects correctly
+
+"kn52fbx":
+--exported fbx file will have same name as original KN5
+
+"kn5fix":
+--tiny fix
+
+
+v0.9.8 changelog
+"kn5join" and "kn5fix"
+--added option to remove Objects from KN5's
+-s   -strip/remove AC.. objects from KN5
+     AC_START/_PIT/_TIME/_HOTLAP/_AB_START/_AB_FINISH/_OPEN_FINISH
+-d param -delete custom objects from KN5
+      param - meshfilter, comma separated list, ? as universal wildcard
+      ie 'str1,str?' or 'material:groove?'
+
+v0.9.9 changelog
+"kn5join" and "kn5fix"
+--fixed CaseSensitivity for custom mesh filter (-d param)
+--up'ed binary version number
+

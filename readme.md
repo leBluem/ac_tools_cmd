@@ -19,8 +19,8 @@ The included programs are:
  - changes everything different to that ^ , also textures if newer than KN5
  - batch file for that: "kn52_fbxini_only.cmd"
  - -export (or -e), will only export .fbx.ini from a KN5
- - -d param, delete objects from kn5, Mhesfilter: "material:mat?,meshX"
- - -s, delete all AC_START/... objects
+ - -d param, delete objects from kn5, param=meshfilter, ie: "meshX, material:mat?"
+ - -s, delete all AC_START?/AC_PIT?/AC_TIME?/AC_HOTLAP?/AC_AB_START?/AC_AB_FINISH?/AC_OPEN_FINISH? objects
  - -x exit after operations
 
 ### KN5Join
@@ -29,8 +29,8 @@ The included programs are:
  - sections can start at any value ([MODEL_66]...)
  - joins KN5's respecting "POSITION" and "ROTATION" params
  - made specifically for "TrackDecoration" app https://www.overtake.gg/downloads/trackdecoration.76979/
- - -d param, delete objects from kn5, Mhesfilter: "material:mat?,meshX"
- - -s, delete all AC_START/... objects
+ - -d param, delete objects from kn5, param=meshfilter, ie: "meshX, material:mat?"
+ - -s, delete all AC_START?/AC_PIT?/AC_TIME?/AC_HOTLAP?/AC_AB_START?/AC_AB_FINISH?/AC_OPEN_FINISH? objects
  - -x exit after operations
  
 ### ksEditorAT
@@ -124,7 +124,7 @@ v0.9.8 changelog
 "kn5join" and "kn5fix"
 --added option to remove Objects from KN5's
 -s   -strip/remove AC.. objects from KN5
-     AC_START/_PIT/_TIME/_HOTLAP/_AB_START/_AB_FINISH/_OPEN_FINISH
+     AC_START?/AC_PIT?/AC_TIME?/AC_HOTLAP?/AC_AB_START?/AC_AB_FINISH?/AC_OPEN_FINISH?
 -d param -delete custom objects from KN5
       param - meshfilter, comma separated list, ? as universal wildcard
       ie 'str1,str?' or 'material:groove?'

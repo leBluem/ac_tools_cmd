@@ -17,19 +17,26 @@ The included programs are:
  - excepts single '.kn5' files or and folders
  - from nearby persistence file '.fbx.ini'
  - changes everything different to that ^ , also textures if newer than KN5
- - param -export (or -e), it will export .fbx.ini from a KN5
  - batch file for that: "kn52_fbxini_only.cmd"
+ - -export (or -e), will only export .fbx.ini from a KN5
+ - -d param, delete objects from kn5, Mhesfilter: "material:mat?,meshX"
+ - -s, delete all AC_START/... objects
+ - -x exit after operations
 
+### KN5Join
+ - if input is a ini-file (format like "models.ini"), it will join files mentioned there
+ - also valid: a KN5-file as input, or a folder, then you need one of the d/s params
+ - sections can start at any value ([MODEL_66]...)
+ - joins KN5's respecting "POSITION" and "ROTATION" params
+ - made specifically for "TrackDecoration" app https://www.overtake.gg/downloads/trackdecoration.76979/
+ - -d param, delete objects from kn5, Mhesfilter: "material:mat?,meshX"
+ - -s, delete all AC_START/... objects
+ - -x exit after operations
+ 
 ### ksEditorAT
  - included for convinience, original from https://ascobash.wordpress.com/2015/07/22/kseditor/
  - builds both car+track kn5's via commandline from '.fbx' and '.fbx.ini' files
 
-### KN5Join
- - can have "-x" paramter to exit after operation
- - wants an "ini" as input, format like "models.ini"
- - sections can start at any value ([MODEL_66]...)
- - joins KN5's respecting "POSITION" and "ROTATION" params
- - made specifically for "TrackDecoration" app https://www.overtake.gg/downloads/trackdecoration.76979/
 
 
 ### Batch files

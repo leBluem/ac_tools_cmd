@@ -1,6 +1,6 @@
-## Assetto Corsa 'ac_tools_cmd'
- - This package includes 5 commandline programs for use in batch files, and some batchfiles for an easy start.
- - Download on the right under "Releases"
+## ac_tools_cmd
+
+This package includes 5 commandline programs for use in batch files, and some batchfiles for an easy start.
 
 The included programs are:
 
@@ -16,27 +16,19 @@ The included programs are:
 ### kn5FIX_by_INI
  - excepts single '.kn5' files or and folders
  - from nearby persistence file '.fbx.ini'
- - changes everything different to that ^ , also textures if newer than KN5
- - batch file for that: "kn52_fbxini_only.cmd"
- - -export (or -e), will only export .fbx.ini from a KN5
- - -d param, delete objects from kn5, param=meshfilter, ie: "meshX, material:mat?"
- - -s, delete all AC_START?/AC_PIT?/AC_TIME?/AC_HOTLAP?/AC_AB_START?/AC_AB_FINISH?/AC_OPEN_FINISH? objects
- - -x exit after operations
+ - fixes only bytes:
+ -- for mat-alphablend/alphatest
+ -- obj-transparency
 
-### KN5Join
- - if input is a ini-file (format like "models.ini"), it will join files mentioned there
- - also valid: a KN5-file as input, or a folder, then you need one of the d/s params
- - sections can start at any value ([MODEL_66]...)
- - joins KN5's respecting "POSITION" and "ROTATION" params
- - made specifically for "TrackDecoration" app https://www.overtake.gg/downloads/trackdecoration.76979/
- - -d param, delete objects from kn5, param=meshfilter, ie: "meshX, material:mat?"
- - -s, delete all AC_START?/AC_PIT?/AC_TIME?/AC_HOTLAP?/AC_AB_START?/AC_AB_FINISH?/AC_OPEN_FINISH? objects
- - -x exit after operations
- 
 ### ksEditorAT
  - included for convinience, original from https://ascobash.wordpress.com/2015/07/22/kseditor/
  - builds both car+track kn5's via commandline from '.fbx' and '.fbx.ini' files
 
+### KN5Join
+ - wants an "ini" as input, format like "models.ini"
+ - sections can start at any value ([MODEL_66]...)
+ - joins KN5's respecting "POSITION" and "ROTATION" params
+ - made specifically for "TrackDecoration" app https://www.overtake.gg/downloads/trackdecoration.76979/
 
 
 ### Batch files
@@ -85,7 +77,7 @@ v0.8 changelog
 -removed all shift-key stuff, now there is always a "press any key" pause after programs ran
 
 v0.9 changelog
---"kn52fbx" and "kn5fix" :
+--"kn52fbx" and "kn5fix":
 --small fixes for handling multiple files
 
 -"kn5fix":
@@ -93,7 +85,7 @@ v0.9 changelog
 --added new batch file for that "kn52_fbxini_only.cmd"
 
 -all programs:
---small fixes output and waiting after operations
+--small fixes for output and waiting after operations
 
 v0.9.1 changelog
 "kn5Join":
@@ -124,7 +116,7 @@ v0.9.8 changelog
 "kn5join" and "kn5fix"
 --added option to remove Objects from KN5's
 -s   -strip/remove AC.. objects from KN5
-     AC_START?/AC_PIT?/AC_TIME?/AC_HOTLAP?/AC_AB_START?/AC_AB_FINISH?/AC_OPEN_FINISH?
+     AC_START/_PIT/_TIME/_HOTLAP/_AB_START/_AB_FINISH/_OPEN_FINISH
 -d param -delete custom objects from KN5
       param - meshfilter, comma separated list, ? as universal wildcard
       ie 'str1,str?' or 'material:groove?'
@@ -134,3 +126,16 @@ v0.9.9 changelog
 --fixed CaseSensitivity for custom mesh filter (-d param)
 --up'ed binary version number
 
+v1.0.0 changelog
+"kn5join" and "kn5fix"
+-fixed joining objects from a single KN5 too much
+-fixed -d meshfilter
+
+v1.1.0 changelog
+"kn5FixByINI"
+-fixed reading fxb.ini correctly
+
+v1.2 changelog
+"kn5join"
+-fixed subobjects in joined kn5 having all the same base name
+(bad if those were AC_POBJECTs)
